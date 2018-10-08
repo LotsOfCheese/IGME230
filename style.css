@@ -1,0 +1,145 @@
+@font-face
+{
+	font-family: 'Righteous', cursive;
+	font-family: 'Press Start 2P', cursive;
+	font-family: 'Bungee', cursive;
+}
+
+body
+{
+	padding-left: 20%;
+	padding-right: 20%;
+	text-align: center;
+	background-color: #f24646;
+}
+
+div
+{
+	padding-left: 4em;
+	padding-right: 4em;
+	background-color: white;
+}
+
+#navcontainer ul
+{
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #25b4fc;
+	color: White;
+	float: left;
+	width: 100%;
+	font-family: 'Press Start 2P';
+}
+
+#navcontainer ul li 
+{ 
+	display: inline-block;
+}
+
+#navcontainer ul li a
+{
+	padding: 0.2em 1em;
+	background-color: #25b4fc;
+	color: White;
+	text-decoration: none;
+	float: left;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+
+#navcontainer ul li a:hover
+{
+	background-color: #369;
+	color: #fff;
+}
+
+#navcontainer ul li a#active
+{
+	background-color: #f24646;
+	color: #fff;
+}
+
+#small
+{
+	display: none;
+}
+
+.resource
+{
+	border: 1px solid;
+	border-color: #369;
+	float: left;
+	margin: 1em;
+	padding: 1em;
+	background-color: #cee1ff;
+}
+
+h1
+{
+	font-family: Bungee;
+	font-size: 40pt;
+}
+
+p
+{
+	font-family: Righteous;
+	font-size: 20pt;
+}
+
+a:link
+{
+	color: #369;
+}
+a:visited
+{
+	color: #f24646;
+}
+a:hover
+{
+	color: #25b4fc;
+}
+a:active
+{
+	color: #f24646;
+}
+
+@media screen and (max-width: 1250px) 
+{
+	#navcontainer ul li 
+	{
+		display: block;
+	}
+	
+	#navcontainer ul li a
+	{
+		width: auto;
+		font-size: 18pt;
+		border: 1px solid white;
+	}
+	
+	body
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	
+	div
+	{
+		padding: 0;
+	}
+	
+	#small
+	{
+		display: inline;
+	}
+	
+	#large
+	{
+		display: none;
+	}
+	
+	h1
+	{
+		font-size: 25pt;
+	}
+}
